@@ -1,0 +1,74 @@
+/* General Content
+–––––––––––––––––––––––––––––––––––––––––––––– */
+.main{padding-top:2%;}
+.row{padding: 2% 0;}
+.headerbg{background-color:#34aadc;}
+.green {background-color:#34aadc;}
+.contactrow {background-color:#e0f8d8;padding:2em;}
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––– */
+body{
+	font-family: 'Abel',sans-serif;
+	font-size: 2em;
+	color: #2b2b2b;
+	background: #D1EEFC;
+}
+header h2 {font-size:1.5em;}
+h2{
+	font-size: 2.5em;
+	margin: 0.5em 0;
+	text-align: left;
+}
+header h2 {text-align: center;}
+p.bio{color: #fff;}
+blockquote {font-style: italic;
+ margin: 2em 0;
+}
+a:link,a:visited,a:hover,a:active {color:#000;
+  text-decoration: none;
+}
+ul.contact {display:block;
+   list-style-type: none;
+}
+.doforyou {background-color:#34aadc;color:#fff;padding:2em;}
+/* Header & Navigation
+–––––––––––––––––––––––––––––––––––––––––––––– */
+header.main_nav{
+	padding: 4% 0;
+	display: block;
+}
+.logo{
+	margin: 2% auto;
+	text-align: center;
+}
+.logo a{
+	font-size: 3em;
+	color: #fff;
+	color: #e0f8d8;
+	text-decoration: none;
+	border: 5px solid #e0f8d8;
+	text-transform: uppercase;
+	padding: 2px 10px 0 10px;
+	margin: 0;
+}
+/* Images & Media
+–––––––––––––––––––––––––––––––––––––––––––––– */
+img{max-width: 100%;}
+img.avatar{
+	border-radius: 400px;
+	border: 4px solid #D1EEFC;
+	margin-top:2em;
+}
+.bruce {margin:5em 0 0 0; border: 6px solid #34aadc;}
+.linkedin {color: #34aadc;}
+.mail {color:#34aadc;}
+.phone {color:#34aadc;}
+.skype {color:#34aadc;}
+/* Media Queries */
+/* Larger than mobile */
+@media (max-width:460px) {
+  .logo a {font-size:2em;}
+  .avatar {margin-top:1.5em;max-width: 95%;}
+  header h2 {font-size:1.5em;}
+  .bruce {margin:0 0 1em 0;}
+}
